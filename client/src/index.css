@@ -6,16 +6,13 @@
   outline: 0;
   box-sizing: border-box;
 }
-
-html,
-body,
-#root {
-  height: 100%;
+html {
+  overflow-y: auto;
+  background: #f0f0f5;
 }
 
 body {
   font: 400 14px Roboto, sans-serif;
-  background: #f0f0f5;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
