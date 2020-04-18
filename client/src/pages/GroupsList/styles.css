@@ -1,0 +1,14 @@
+.content-search {
+  padding: 15px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 600px) {
+  .content-search {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
